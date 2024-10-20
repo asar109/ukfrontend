@@ -1,0 +1,233 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .content {
+    width: 600px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .logo {
+    width: 150px;
+  }
+  
+  .title {
+    font-weight: bold;
+    font-size: 24px;
+    font-family: proxima-nova-bold, sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .cookie-acceptance {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .note {
+    margin-bottom: 20px;
+    font-family: opensans-regular, sans-serif;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  .submit-btn {
+    background-color: #e31837;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .error {
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .result-container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 5px;
+
+    position: relative;
+  }
+  
+  .header-container {
+    position: relative;
+    padding-bottom: 20px;
+ 
+    margin-bottom: 20px;
+  }
+  
+  .ielts-logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 100px;
+  }
+  
+  .header-container h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'proxima-nova-bold', sans-serif;
+    margin: 0;
+  }
+  
+  .result-info {
+    background-color: #2f2f2f;
+    padding: 22px;
+    border-radius: 5px;
+    color: #fff;
+    margin-bottom: 20px;
+
+    height: 250px;
+ 
+}
+  .info-section {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .info-item {
+    margin-bottom: 10px;
+  }
+  .result-note {
+    margin-top: 40px;
+}
+  
+  .score-section {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  .score-item {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    width: 150px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .score-item.highlight {
+    background-color: #e31837;
+    color: #fff;
+    border: none;
+  }
+  
+  .score-item:hover {
+    background-color: #e31837;
+    color: #fff;
+  }
+  
+  .score-item p {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+
+  
+  .score-item {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    width: 150px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+    color: red;
+}
+
+
+h1.font-bold.text-2xl.mt-2 {
+  display: inline-block;
+  margin-top: -5px;
+}
+.ielts-logo{
+position:   absolute;   
+  top: -74px;
+          right: 0%; 
+          left: 104%; 
+          width:100px
+}
+img.img2 {
+  margin-left: 50%;
+  
+  margin-top: -1%;
+  width: 20pc;
+}
+.social-links.flex.gap-4.md\:flex-row.md\:gap-2.flex.justify-between {
+  display: inline-flex;
+  margin-left: 70%;
+  font-size: 24px;
+  gap: 13px;
+}
+.footer-links.flex.gap-4.md\:ml-8.mt-4.md\:mt-0 {
+  position: absolute;
+ 
+  left: 50px;
+}
+img.img1 {
+  margin-left: 26%;
+}
+
+
+@media (max-width: 967px) {
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 2pc; /* Added padding to match the original styling */
+  }
+
+
+}
+
+
